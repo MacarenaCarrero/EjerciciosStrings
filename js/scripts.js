@@ -133,3 +133,38 @@ titleFormat("Érase una");
 titleFormat("hola macarena");
 
 //once
+
+
+function onlyInitials(word1, word2){
+const initial = word1.charAt(0).toUpperCase();
+const secondInitial =word2.charAt(0).toUpperCase();
+
+console.log (initial + "." + secondInitial +".")
+
+}
+
+onlyInitials("Macarena", "Carrero")
+onlyInitials("maca", "fernandez")
+
+//doce
+
+function wordLenghth (word1, word2, word3){ 
+  const halfLength = (word1.length + word2.length + word3.length) /3;
+
+  console.log(halfLength)
+}
+
+wordLenghth("gatito", "perrito", "pet")
+wordLenghth("osoito", "abeja", "leon")
+
+//trece
+
+function phoneNumber (number){
+  const firstDigits = number.substring(0,2)
+  const secondDigits = number.substring(2,5)
+  const thirdDigits= number.substring(5,10)
+
+  console.log ("("+ firstDigits+")"+" "+secondDigits+"-"+ thirdDigits)
+}
+
+phoneNumber("9187232513")
