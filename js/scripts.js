@@ -169,6 +169,12 @@ function phoneNumber (number){
 
 phoneNumber("9187232513")
 
-//ochoverdadero
+//catorce
 
-function verb(word1, word2){}
+function reverseOrder (word){
+const order =word.charAt(3)*2 +word.charAt(2)+word.charAt(1)+word.charAt(0)
+
+return order
+}
+
+console.log("hola")
