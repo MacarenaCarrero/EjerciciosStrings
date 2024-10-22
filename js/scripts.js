@@ -101,10 +101,10 @@ function invertedWords(word) {
   const order =
     word.charAt(3) + word.charAt(2) + word.charAt(1) + word.charAt(0);
 
-  console.log(order);
+  return order;
 }
-
-invertedWords("maca");
+const order = invertedWords ("maca")
+console.log(order)
 
 //nueve
 
@@ -168,3 +168,7 @@ function phoneNumber (number){
 }
 
 phoneNumber("9187232513")
+
+//ochoverdadero
+
+function verb(word1, word2){}
